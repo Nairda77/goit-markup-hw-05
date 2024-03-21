@@ -249,6 +249,7 @@ a {
 }
 
 .global-header{
+    border-bottom: 2px solid #E7E9FC;
     display: inline-flex;
     justify-content: space-between;
     width: 1440px;
@@ -566,6 +567,23 @@ a {
     height: 96px;
 }
 
-.active-link:active {
-    border-bottom: 2px #404bbf;
+.active-link:hover{
+    color: #404bbf;
+}
+
+.active-link2::after {
+    content: "";
+    display: block;
+    position: relative;
+    background-color: #404bbf;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    bottom: -23px;
+    opacity: ;
+    transition: 0.2s
+}
+
+.active-link2::hover::after{
+    opacity: ;
 }
