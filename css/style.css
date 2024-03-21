@@ -580,10 +580,10 @@ a {
     width: 100%;
     left: 0;
     bottom: -23px;
-    opacity: ;
-    transition: 0.2s
+    opacity: 0;
+    transition: 0.2s;
 }
 
-.active-link2::hover::after{
-    opacity: ;
+.active-link2:hover::after{
+    opacity: 1;
 }
