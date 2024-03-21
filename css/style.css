@@ -571,7 +571,7 @@ a {
     color: #404bbf;
 }
 
-.active-link2::after {
+.active-link::after {
     content: "";
     display: block;
     position: relative;
@@ -584,6 +584,6 @@ a {
     transition: 0.2s;
 }
 
-.active-link2:hover::after{
+.active-link:hover::after{
     opacity: 1;
 }
